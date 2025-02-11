@@ -3,7 +3,7 @@ import Header from './Header';
 
 function Hero() {
   return (
-    <section className="flex flex-col items-start">
+    <section className="flex flex-col items-start h-screen">
       <Header />
       <img
         className="h-screen absolute -top-1 -z-10 "
@@ -16,7 +16,7 @@ function Hero() {
         alt="Lorry"
       />
       <div className="flex flex-col items-start justify-start mx-60">
-        <h1 className="text-white text-8xl w-1/2 justify-self-center mt-40 mb-10">
+        <h1 className="text-white text-8xl w-1/2 justify-self-center mt-40 mb-10 font-serif">
           Your awesome traffic permit consultant.
         </h1>
         <Button
