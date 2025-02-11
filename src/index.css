@@ -90,6 +90,12 @@
   --radius-xl: calc(var(--radius) + 4px);
 }
 
+@theme {
+  --color-red: #ee4d47;
+  --color-white: #ffffff;
+  --color-darkblue: #0f264c;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
