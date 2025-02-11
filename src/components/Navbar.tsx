@@ -1,14 +1,13 @@
 import { navbar } from '@/data';
-import Button from './Button';
 
 function Navbar() {
   return (
-    <div className="flex justify-between flex-1 items-center py-4 px-20 bg-amber-300 ">
+    <div className="flex  gap-130 flex-1 items-center py-4 ">
       <div>
         <img src="src/assets/img/logo.svg" alt="Traffico Logo" />
       </div>
       <nav className="navbar">
-        <ul className="flex gap-10 text-white font-bold text-lg">
+        <ul className="flex gap-20 text-white font-bold text-xl">
           {navbar.map((navbarElement) => (
             <li key={navbarElement.name}>
               <a href={navbarElement.link}>{navbarElement.name}</a>
